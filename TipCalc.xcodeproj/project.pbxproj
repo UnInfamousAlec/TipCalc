@@ -17,6 +17,7 @@
 		F4763DF420A0E37400BD67E3 /* PercentToTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4763DF320A0E37400BD67E3 /* PercentToTip.swift */; };
 		F4763DF620A0E39300BD67E3 /* AmountToTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4763DF520A0E39300BD67E3 /* AmountToTip.swift */; };
 		F4763DF820A0E3C800BD67E3 /* CheckTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4763DF720A0E3C800BD67E3 /* CheckTotal.swift */; };
+		F4763DFC20A124EB00BD67E3 /* Reference.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4763DFB20A124EB00BD67E3 /* Reference.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F4763DF320A0E37400BD67E3 /* PercentToTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PercentToTip.swift; sourceTree = "<group>"; };
 		F4763DF520A0E39300BD67E3 /* AmountToTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountToTip.swift; sourceTree = "<group>"; };
 		F4763DF720A0E3C800BD67E3 /* CheckTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTotal.swift; sourceTree = "<group>"; };
+		F4763DFB20A124EB00BD67E3 /* Reference.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reference.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,19 +71,20 @@
 				F4763DE820A0C7FD00BD67E3 /* Model Controllers */,
 				F4763DE720A0C7F300BD67E3 /* View Controllers */,
 				F4763DE620A0C7EA00BD67E3 /* Views */,
-				F4763DE420A0C79900BD67E3 /* Storyboards (Reference) */,
+				F4763DE420A0C79900BD67E3 /* Storyboards */,
 				F4763DE520A0C7B000BD67E3 /* Resources */,
 			);
 			path = TipCalc;
 			sourceTree = "<group>";
 		};
-		F4763DE420A0C79900BD67E3 /* Storyboards (Reference) */ = {
+		F4763DE420A0C79900BD67E3 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
 				F4763DDB20A0C75500BD67E3 /* LaunchScreen.storyboard */,
 				F4763DD620A0C75400BD67E3 /* Main.storyboard */,
+				F4763DFB20A124EB00BD67E3 /* Reference.storyboard */,
 			);
-			path = "Storyboards (Reference)";
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		F4763DE520A0C7B000BD67E3 /* Resources */ = {
@@ -195,6 +198,7 @@
 			files = (
 				F4763DDD20A0C75500BD67E3 /* LaunchScreen.storyboard in Resources */,
 				F4763DDA20A0C75500BD67E3 /* Assets.xcassets in Resources */,
+				F4763DFC20A124EB00BD67E3 /* Reference.storyboard in Resources */,
 				F4763DD820A0C75400BD67E3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
