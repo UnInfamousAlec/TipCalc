@@ -22,7 +22,6 @@ class TipViewController: UIViewController {
         
         let tipOrTotalSegmentedItems = ["Check Tip $", "Check Total $"]
         let tipOrTotalSegmentedController = UISegmentedControl(items: tipOrTotalSegmentedItems)
-        view.addSubview(tipOrTotalSegmentedController)
         tipOrTotalSegmentedController.selectedSegmentIndex = 0
         
         tipOrTotalSegmentedController.translatesAutoresizingMaskIntoConstraints = false
@@ -30,9 +29,12 @@ class TipViewController: UIViewController {
         let controlCenter = NSLayoutConstraint(item: tipOrTotalSegmentedController, attribute: .centerX, relatedBy: .equal, toItem: self.view, attribute: .centerX, multiplier: 1, constant: 0)
         let controlWidth = NSLayoutConstraint(item: tipOrTotalSegmentedController, attribute: .width, relatedBy: .equal, toItem: self.view, attribute: .width, multiplier: 0.8, constant: 0)
         let controlHeight = NSLayoutConstraint(item: tipOrTotalSegmentedController, attribute: .height, relatedBy: .equal, toItem: self.view, attribute: .height, multiplier: 0, constant: 28)
+        
+        view.addSubview(tipOrTotalSegmentedController)
         view.addConstraints([controlTop, controlCenter, controlWidth, controlHeight])
         
-        
+//        let checkAmountStackView: UIStackView
+//        view.addSubview(checkAmountStackView)
     }
 }
 
