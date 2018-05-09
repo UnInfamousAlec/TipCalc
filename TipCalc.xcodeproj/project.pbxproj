@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4465E4020A278870020345D /* TipOrTotal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4465E3F20A278870020345D /* TipOrTotal.swift */; };
 		F4763DD320A0C75400BD67E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4763DD220A0C75400BD67E3 /* AppDelegate.swift */; };
 		F4763DD820A0C75400BD67E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4763DD620A0C75400BD67E3 /* Main.storyboard */; };
 		F4763DDA20A0C75500BD67E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4763DD920A0C75500BD67E3 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4465E3F20A278870020345D /* TipOrTotal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipOrTotal.swift; sourceTree = "<group>"; };
 		F4763DCF20A0C75400BD67E3 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4763DD220A0C75400BD67E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4763DD720A0C75400BD67E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 		F4763DEE20A0E32000BD67E3 /* Stacks */ = {
 			isa = PBXGroup;
 			children = (
+				F4465E3F20A278870020345D /* TipOrTotal.swift */,
 				F4763DF120A0E35800BD67E3 /* CheckAmount.swift */,
 				F4763DF320A0E37400BD67E3 /* PercentToTip.swift */,
 				F4763DF520A0E39300BD67E3 /* AmountToTip.swift */,
@@ -215,6 +218,7 @@
 				F4763DD320A0C75400BD67E3 /* AppDelegate.swift in Sources */,
 				F4763DF420A0E37400BD67E3 /* PercentToTip.swift in Sources */,
 				F4763DF820A0E3C800BD67E3 /* CheckTotal.swift in Sources */,
+				F4465E4020A278870020345D /* TipOrTotal.swift in Sources */,
 				F4763DED20A0E22300BD67E3 /* TipViewController.swift in Sources */,
 				F4763DEB20A0C81100BD67E3 /* Tip.swift in Sources */,
 			);
